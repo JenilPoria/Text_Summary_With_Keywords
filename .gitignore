@@ -1,0 +1,41 @@
+# --- Python cache files ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# --- Virtual environment ---
+venv/
+.env/
+*.env
+.envrc
+.env.*
+
+# --- IDE / Editor specific ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- OS generated files ---
+.DS_Store
+Thumbs.db
+
+# --- Logs ---
+*.log
+
+# --- Byte-compiled / Jupyter ---
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# --- Build / Packaging ---
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# --- FastAPI / Streamlit specific ---
+# (in case you generate temp files for runs)
+*.db
+*.sqlite3
+*.sqlite
