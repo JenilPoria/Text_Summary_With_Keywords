@@ -17,12 +17,13 @@ Modular code structure for easy updates.
 
 # 🛠️ Tech Stack
 
-Frontend: Streamlit
+| Layer                | Technologies                               |
+| -------------------- | ------------------------------------------ |
+| **Frontend**         | Streamlit                                  |
+| **Backend**          | FastAPI, LangGraph                         |
+| **LLM Integration**  | LangChain, LangChain-Groq,                 |
+| **Utilities**        | Pydantic, Uvicorn, requests, python-dotenv |
+| **Platform Scripts** | `run.bat` for quick local startup workflow |
 
-Backend: FastAPI, LangGraph
-
-LLM Integration: LangChain, LangChain-Groq
-
-Other Tools: Pydantic, Uvicorn, Requests, Python-Dotenv
 
 
